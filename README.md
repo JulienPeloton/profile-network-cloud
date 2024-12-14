@@ -8,3 +8,9 @@ source env/bin/activate
 
 ./install_and_launch_gateway.sh
 ```
+
+Then profile the connection by running:
+
+```bash
+./profile.sh <HBASEIP> <PORT>
+```
