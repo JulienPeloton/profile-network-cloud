@@ -1,2 +1,10 @@
-# profile-network-cloud
-Profiling test for VD networks
+# Profiling test for VD networks
+
+Fire a VM (alma linux 9), log as root and execute the installation script:
+
+```bash
+python -m venv env
+source env/bin/activate
+
+./install_and_launch_gateway.sh
+```
